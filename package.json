@@ -1,0 +1,37 @@
+{
+  "name": "mongodb-diff-migration",
+  "version": "1.0.0",
+  "description": "MongoDB Differential Data Migration based on mongoimport and mongoexport",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc -w",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antronic/mongodb-diff-migration.git"
+  },
+  "keywords": [
+    "MongoDB",
+    "MongoDB",
+    "Migration",
+    "MongoDB",
+    "Differential",
+    "migration"
+  ],
+  "author": "Jirachai Chansivanon <jirachai.c@mongodb.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antronic/mongodb-diff-migration/issues"
+  },
+  "homepage": "https://github.com/antronic/mongodb-diff-migration#readme",
+  "devDependencies": {
+    "@types/node": "^22.10.7",
+    "nodemon": "^3.1.9",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
